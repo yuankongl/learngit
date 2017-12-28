@@ -1,2 +1,9 @@
 Git is a version control system.
 Git is free software.
+
+<!-- offline
+   | Determines whether maven should attempt to connect to the network when executing a build.
+   | This will have an effect on artifact downloads, artifact deployment, and others.
+   |
+   | Default: false
+  <offline>false</offline>
